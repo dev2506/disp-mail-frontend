@@ -58,7 +58,6 @@ document.addEventListener('DOMContentLoaded', function () {
         if (response) {
             data = await response.json()
         }
-        console.log(data)
         if (data.length > 0) {
             data.forEach((email, ind) => {
                 const waitingForMailsDiv = document.getElementById('waiting-for-mails')
