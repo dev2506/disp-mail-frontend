@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp Mail</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <main>
+            <div class="logo-container">
+                <img src="assets/tossmaillogo.png" alt="Toss Mail Logo" height="60" width="60">
+                <div class="project-name">Toss Mail</div>
+            </div>
+            <h2>Your Temporary Email Address</h2>
+            <div class="email-box">
+                <input type="text" id="temp-email" value="loading..." readonly>
+                <button id="copy-btn">Copy</button>
+            </div>
+            <div class="inboxWarpMain">
+                <div class="inbox-header" id="inbox-header">
+                    <div class="sender">SENDER</div>
+                    <div class="subject">SUBJECT</div>
+                    <div class="view">VIEW</div>
+                </div>
+                <div class="inbox-header-2-hidden" id="inbox-header-2">
+                    <div class="back-to-list">Back to list</div>
+                    <!-- <div class="subject">SUBJECT</div> -->
+                    <!-- <div class="view">VIEW</div> -->
+                </div>
+                
+                <div class="inbox-dataList" id="inbox-dataList">
+                    <div class="waiting-for-mails" id="waiting-for-mails">Waiting for mails...</div>
+                </div>
+
+                <div class="inbox-dataList-2-hidden" id="inbox-dataList-2">
+                </div>
+                
+          </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
